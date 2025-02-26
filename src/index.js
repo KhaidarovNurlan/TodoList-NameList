@@ -1,11 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import Timer from "./Timer";
+import TodoList from "./TodoList";
+import NameList from "./NameList";
 import "./styles.css"; 
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Timer />
+    <TodoList />
+    <NameList />
   </React.StrictMode>
 );
